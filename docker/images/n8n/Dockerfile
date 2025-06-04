@@ -71,3 +71,5 @@ RUN npm install -g npm@11.4.1
 ENV SHELL /bin/sh
 USER node
 ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
+
+CMD ["n8n", "start", "--user-folder", "/home/node/.n8n"]
