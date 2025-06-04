@@ -16,3 +16,6 @@ services:
         value: https
       - key: N8N_USER_FOLDER
         value: /home/node/.n8n
+
+
+Rename render.yaml to disable auto-deploy
