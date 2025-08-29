@@ -1,3 +1,3 @@
-FROM n8nio/n8n:1.105.0
+FROM n8nio/n8n:1.106.3
 
 ENV TZ=Europe/Berlin
